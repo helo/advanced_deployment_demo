@@ -20,7 +20,7 @@ spec:
       containers:
         - name: simple-app-git
           image: >-
-            image-registry.openshift-image-registry.svc:5000/deployment-demos/advanced-service@sha256:eea4bb56716db6c59f99f7b6dc132661b4f68ec8b5191588e90cda02d0a78055
+            image-registry.openshift-image-registry.svc:5000/deployment-demos/advanced-service
           ports:
             - containerPort: 8080
               protocol: TCP
