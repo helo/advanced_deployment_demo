@@ -2,7 +2,7 @@ apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
   name: code-quality-analysis
-  namespace: demo1
+  namespace: deployment-demos
 spec:
   steps:
     - command:
