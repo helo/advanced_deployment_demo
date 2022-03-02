@@ -4,17 +4,17 @@ metadata:
   name: green-deployment
   namespace: deployment-demos
   labels:
-    app: advanced-app
+    app: advanced-app-green
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: advanced-app
+      app: advanced-app-green
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: advanced-app
+        app: advanced-app-green
         deploymentconfig: advanced-app-green
     spec:
       containers:

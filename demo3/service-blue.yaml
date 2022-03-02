@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: simple-app-git-v1
-  namespace: demo3
+  name: blue-service
+  namespace: deployment-demos
   labels:
-    app: simple-app-git-v1
+    app: advanced-app-blue
 spec:
   ports:
     - name: 8080-tcp
@@ -20,5 +20,5 @@ spec:
       port: 8778
       targetPort: 8778
   selector:
-    app: simple-app-git-v1
-    deploymentconfig: simple-app-git-v1
+    app: advanced-app-blue
+    deploymentconfig: advanced-app-blue
