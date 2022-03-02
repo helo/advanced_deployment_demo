@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: demo3
-    repoURL: https://github.com/RedHatNordicsSA/advanced_deployment_demo
+    repoURL: https://github.com/helo/advanced_deployment_demo
   syncPolicy:
     automated:
       prune: true
