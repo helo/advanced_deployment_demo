@@ -13,7 +13,7 @@ spec:
   alternateBackends:
     - kind: Service
       name: blue-service
-      weight: 10
+      weight: 100
   port:
     targetPort: 8080-tcp
   wildcardPolicy: None
