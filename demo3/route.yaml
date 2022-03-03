@@ -9,11 +9,11 @@ spec:
   to:
     kind: Service
     name: green-service
-    weight: 100
+    weight: 80
   alternateBackends:
     - kind: Service
       name: blue-service
-      weight: 0
+      weight: 20
   port:
     targetPort: 8080-tcp
   wildcardPolicy: None
